@@ -16,14 +16,22 @@ jobs:
 
       - name: Checkout project
         uses: actions/checkout@v4
-        with:
-          submodules: true
 
       - name: Create branch
         run: git checkout -b submodules-update-$TODAY
 
-      - name: Run submodule updates
-        run: git submodule update --remote --checkout
+      - name: Update submodules to latest
+        run: |
+          failed=""
+          for path in $(git config --file .gitmodules --get-regexp path | awk '{print $2}'); do
+            if ! git submodule update --init --remote --checkout --depth 1 "$path" 2>&1; then
+              echo "::warning::Failed to update $path"
+              failed="$failed $path"
+            fi
+          done
+          if [ -n "$failed" ]; then
+            echo "::warning::Failed submodules:$failed"
+          fi
 
       - name: Configure git user
         run: |
@@ -31,16 +39,25 @@ jobs:
           git config user.email ${{ github.actor }}@users.noreply.github.com
 
       - name: Commit
+        id: commit
         run: |
           git add .
-          git commit -m "Update submodules $TODAY"
+          if git diff --cached --quiet; then
+            echo "No submodule changes"
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "Update submodules $TODAY"
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Push branch
+        if: steps.commit.outputs.changes == 'true'
         run: |
           git config push.autoSetupRemote true
           git push
 
       - name: Open pull request
+        if: steps.commit.outputs.changes == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
