@@ -132,9 +132,6 @@ Connect Any App to Any Service [https://github.com/nebulab/cangaroo](https://git
 The open LMS by Instructure, Inc. [https://github.com/instructure/canvas-lms/wiki](https://github.com/instructure/canvas-lms/wiki)  
 [https://github.com/instructure/canvas-lms](https://github.com/instructure/canvas-lms)
 
-### cartodb
-Location Intelligence & Data Visualization tool [http://carto.com](http://carto.com)  
-[https://github.com/CartoDB/cartodb](https://github.com/CartoDB/cartodb)
 
 ### case_file_editor
 An editor for digital case files.  
