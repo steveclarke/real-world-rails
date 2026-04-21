@@ -21,6 +21,7 @@ set -euo pipefail
 
 # Colors
 green='\033[0;32m'
+yellow='\033[0;33m'
 nc='\033[0m'
 
 ################################################################################
@@ -35,6 +36,9 @@ main() {
   fi
 
   init_submodules
+  recover_broken_submodules
+  report_unrecovered
+
   log "Setup complete! Explore the apps/ and engines/ directories."
   log "Run 'bin/update' anytime to pull the latest changes."
 }
@@ -44,6 +48,7 @@ main() {
 ################################################################################
 
 log() { echo -e "${green}==>${nc} ${1}"; }
+warn() { echo -e "${yellow}==>${nc} ${1}" >&2; }
 
 parse_options() {
   FULL=false
@@ -62,6 +67,14 @@ parse_options() {
   done
 }
 
+depth_args() {
+  if [ "$FULL" = true ]; then
+    echo ""
+  else
+    echo "--depth 1"
+  fi
+}
+
 ################################################################################
 # Core Functions
 ################################################################################
@@ -74,13 +87,88 @@ reset_submodules() {
 init_submodules() {
   if [ "$FULL" = true ]; then
     log "Initializing submodules with full history (~29 GB)..."
-    log "This may take a while on first run"
-    GIT_LFS_SKIP_SMUDGE=1 git submodule update --init --single-branch --jobs 4
   else
     log "Initializing submodules with shallow clone (latest commit only)..."
     log "Use --full to include complete git history"
-    GIT_LFS_SKIP_SMUDGE=1 git submodule update --init --single-branch --depth 1 --jobs 4
   fi
+  log "This may take a while on first run"
+
+  # Best-effort bulk init. When an upstream repo has rewritten history,
+  # the pinned SHA may no longer be fetchable — we don't want the whole
+  # setup to abort on one stale submodule. Recovery runs below.
+  # shellcheck disable=SC2046
+  GIT_LFS_SKIP_SMUDGE=1 git submodule update --init --single-branch \
+    $(depth_args) --jobs 4 || true
+}
+
+# When the pinned SHA has been force-pushed away upstream, `git submodule update`
+# clones the branch, stages deletion of the worktree in prep for the checkout,
+# then aborts when the SHA can't be fetched — leaving an empty worktree behind.
+# This pass detects those (and truly uninitialized submodules) and recovers them.
+recover_broken_submodules() {
+  local broken
+  broken=$(broken_submodule_paths)
+  [ -z "$broken" ] && return 0
+
+  warn "Some submodules need recovery (stale pins or missing worktrees)..."
+  while IFS= read -r path; do
+    [ -z "$path" ] && continue
+    recover_submodule "$path" || warn "  Unable to recover ${path}"
+  done <<< "$broken"
+}
+
+# A submodule is broken if its worktree is missing or contains nothing but .git
+broken_submodule_paths() {
+  git config -f .gitmodules --get-regexp '^submodule\..*\.path$' | awk '{print $2}' |
+  while IFS= read -r path; do
+    if [ ! -d "$path" ] || [ -z "$(ls -A "$path" 2>/dev/null | grep -v '^\.git$' | head -1)" ]; then
+      echo "$path"
+    fi
+  done
+}
+
+recover_submodule() {
+  local path="$1"
+
+  # Case 1: gitdir exists with a valid HEAD — the bulk run cloned the repo but
+  # couldn't land on the pinned SHA. Restore the worktree from whatever HEAD is
+  # (the tracked branch tip, in practice).
+  if [ -d ".git/modules/${path}" ] && git -C "$path" rev-parse --verify HEAD >/dev/null 2>&1; then
+    log "  Restoring worktree for ${path}"
+    git -C "$path" reset --hard HEAD >/dev/null
+    return 0
+  fi
+
+  # Case 2: truly uninitialized — clone fresh from the tracked branch
+  local branch url
+  branch=$(git config -f .gitmodules "submodule.${path}.branch" 2>/dev/null || echo "")
+  url=$(git config -f .gitmodules "submodule.${path}.url")
+
+  if [ -z "$branch" ]; then
+    warn "  ${path}: no tracked branch in .gitmodules — cannot recover"
+    return 1
+  fi
+
+  log "  Cloning ${path} from branch ${branch}"
+  rm -rf "$path" ".git/modules/${path}"
+  local clone_args=(--single-branch --branch "$branch" --separate-git-dir ".git/modules/${path}")
+  # shellcheck disable=SC2046
+  GIT_LFS_SKIP_SMUDGE=1 git clone $(depth_args) "${clone_args[@]}" "$url" "$path"
+
+  git submodule init -- "$path" >/dev/null
+}
+
+report_unrecovered() {
+  local still_broken
+  still_broken=$(broken_submodule_paths)
+  [ -z "$still_broken" ] && return 0
+
+  warn "The following submodules could not be initialized:"
+  while IFS= read -r path; do
+    [ -z "$path" ] && continue
+    warn "  - ${path}"
+  done <<< "$still_broken"
+  warn "These may need manual attention (upstream repo moved, renamed, or deleted)."
 }
 
 ################################################################################
