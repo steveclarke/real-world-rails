@@ -874,3 +874,7 @@
 [submodule "apps/pagecord"]
 	path = apps/pagecord
 	url = https://github.com/lylo/pagecord.git
+[submodule "apps/otwarchive"]
+	path = apps/otwarchive
+	url = git@github.com:otwcode/otwarchive.git
+	branch = master
