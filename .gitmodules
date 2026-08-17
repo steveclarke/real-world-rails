@@ -12,7 +12,7 @@
 	branch = main
 [submodule "apps/huginn"]
 	path = apps/huginn
-	url = git@github.com:cantino/huginn.git
+	url = git@github.com:huginn/huginn.git
 	branch = master
 [submodule "apps/discourse"]
 	path = apps/discourse
@@ -28,7 +28,7 @@
 	branch = master
 [submodule "apps/storytime"]
 	path = apps/storytime
-	url = git@github.com:FlyoverWorks/storytime.git
+	url = git@github.com:CultivateLabs/storytime.git
 	branch = master
 [submodule "apps/refinerycms"]
 	path = apps/refinerycms
@@ -52,7 +52,7 @@
 	branch = master
 [submodule "apps/onebody"]
 	path = apps/onebody
-	url = git@github.com:churchio/onebody.git
+	url = git@github.com:seven1m/onebody.git
 	branch = master
 [submodule "apps/fulcrum"]
 	path = apps/fulcrum
@@ -84,7 +84,7 @@
 	branch = develop
 [submodule "apps/projectmonitor"]
 	path = apps/projectmonitor
-	url = git@github.com:pivotal/projectmonitor.git
+	url = git@github.com:vmware-archive/projectmonitor.git
 	branch = master
 [submodule "apps/canvas-lms"]
 	path = apps/canvas-lms
@@ -120,11 +120,11 @@
 	branch = master
 [submodule "apps/rails-contributors"]
 	path = apps/rails-contributors
-	url = git@github.com:fxn/rails-contributors.git
+	url = git@github.com:rails/rails-contributors.git
 	branch = main
 [submodule "apps/tomatoes"]
 	path = apps/tomatoes
-	url = git@github.com:potomak/tomatoes.git
+	url = git@github.com:tomatoes-app/tomatoes.git
 	branch = master
 [submodule "apps/openstreetmap-website"]
 	path = apps/openstreetmap-website
@@ -148,11 +148,11 @@
 	branch = master
 [submodule "apps/peatio"]
 	path = apps/peatio
-	url = git@github.com:peatio/peatio.git
+	url = git@github.com:hpyhacking/peatio.git
 	branch = main
 [submodule "apps/scumblr"]
 	path = apps/scumblr
-	url = git@github.com:Netflix/Scumblr.git
+	url = git@github.com:Netflix-Skunkworks/Scumblr.git
 	branch = master
 [submodule "apps/bridge_troll"]
 	path = apps/bridge_troll
@@ -196,7 +196,7 @@
 	branch = dev
 [submodule "apps/girldevelopit"]
 	path = apps/girldevelopit
-	url = git@github.com:girldevelopit/gdi-new-site.git
+	url = git@github.com:girldevelopit/gdi-website.git
 	branch = staging
 [submodule "apps/huboard-web"]
 	path = apps/huboard-web
@@ -224,11 +224,11 @@
 	branch = master
 [submodule "apps/xrono"]
 	path = apps/xrono
-	url = git@github.com:isotope11/xrono.git
+	url = git@github.com:ironmtntech/xrono.git
 	branch = master
 [submodule "apps/signonotron2"]
 	path = apps/signonotron2
-	url = git@github.com:alphagov/signonotron2.git
+	url = git@github.com:alphagov/signon.git
 	branch = main
 [submodule "apps/publisher"]
 	path = apps/publisher
@@ -244,7 +244,7 @@
 	branch = master
 [submodule "apps/csvlint"]
 	path = apps/csvlint
-	url = git@github.com:theodi/csvlint.git
+	url = git@github.com:Data-Liberation-Front/csvlint.io.git
 	branch = main
 [submodule "apps/uk-postcodes"]
 	path = apps/uk-postcodes
@@ -264,11 +264,11 @@
 	branch = master
 [submodule "apps/kandan"]
 	path = apps/kandan
-	url = git@github.com:kandanapp/kandan.git
+	url = git@github.com:DamageLabs/kandan.git
 	branch = master
 [submodule "apps/ruby-china"]
 	path = apps/ruby-china
-	url = git@github.com:ruby-china/ruby-china.git
+	url = git@github.com:ruby-china/homeland.git
 	branch = main
 [submodule "apps/feedbin"]
 	path = apps/feedbin
@@ -292,7 +292,7 @@
 	branch = master
 [submodule "apps/classroom"]
 	path = apps/classroom
-	url = git@github.com:education/classroom.git
+	url = git@github.com:github-education-resources/classroom.git
 	branch = master
 [submodule "apps/markus"]
 	path = apps/markus
@@ -300,7 +300,7 @@
 	branch = master
 [submodule "apps/contribulator"]
 	path = apps/contribulator
-	url = git@github.com:andrew/contribulator.git
+	url = git@github.com:24pullrequests/contribulator.git
 	branch = master
 [submodule "apps/twist"]
 	path = apps/twist
@@ -312,11 +312,11 @@
 	branch = master
 [submodule "apps/cloudnet"]
 	path = apps/cloudnet
-	url = git@github.com:OnApp/cloudnet.git
+	url = git@github.com:virtuozzo/cloudnet.git
 	branch = master
 [submodule "apps/politwoops"]
 	path = apps/politwoops
-	url = git@github.com:sunlightlabs/politwoops.git
+	url = git@github.com:propublica/politwoops_sunlight.git
 	branch = master
 [submodule "apps/phez"]
 	path = apps/phez
@@ -324,11 +324,11 @@
 	branch = master
 [submodule "apps/atet"]
 	path = apps/atet
-	url = git@github.com:ministryofjustice/atet.git
+	url = git@github.com:hmcts/et-pet-et1.git
 	branch = master
 [submodule "apps/fr-staffapp"]
 	path = apps/fr-staffapp
-	url = git@github.com:ministryofjustice/fr-staffapp.git
+	url = git@github.com:hmcts/hwf-staffapp.git
 	branch = master
 [submodule "apps/parliamentary-questions"]
 	path = apps/parliamentary-questions
@@ -380,7 +380,7 @@
 	branch = master
 [submodule "apps/imminence"]
 	path = apps/imminence
-	url = git@github.com:alphagov/imminence.git
+	url = git@github.com:alphagov/places-manager.git
 	branch = main
 [submodule "apps/foodsoft"]
 	path = apps/foodsoft
@@ -461,7 +461,7 @@
 	branch = main
 [submodule "engines/payola"]
 	path = engines/payola
-	url = git@github.com:peterkeen/payola.git
+	url = git@github.com:payolapayments/payola.git
 	branch = master
 [submodule "engines/griddler"]
 	path = engines/griddler
@@ -497,7 +497,7 @@
 	branch = main
 [submodule "engines/rapidfire"]
 	path = engines/rapidfire
-	url = git@github.com:code-mancers/rapidfire.git
+	url = git@github.com:codemancers/rapidfire.git
 	branch = master
 [submodule "apps/bender"]
 	path = apps/bender
@@ -553,7 +553,7 @@
 	branch = master
 [submodule "apps/ifme"]
 	path = apps/ifme
-	url = git@github.com:julianguyen/ifme.git
+	url = git@github.com:ifmeorg/ifme.git
 	branch = main
 	ignore = dirty
 [submodule "apps/prague-server"]
@@ -582,7 +582,7 @@
 	branch = master
 [submodule "apps/publicwhip"]
 	path = apps/publicwhip
-	url = git@github.com:openaustralia/publicwhip.git
+	url = git@github.com:openaustralia/theyvoteforyou.git
 	branch = main
 [submodule "engines/cangaroo"]
 	path = engines/cangaroo
@@ -614,7 +614,7 @@
 	branch = main
 [submodule "apps/codetriage"]
 	path = apps/codetriage
-	url = git@github.com:codetriage/codetriage.git
+	url = git@github.com:codetriage/CodeTriage.git
 	branch = main
 [submodule "engines/tolk"]
 	path = engines/tolk
@@ -670,7 +670,7 @@
 	branch = master
 [submodule "engines/browse-everything"]
 	path = engines/browse-everything
-	url = git@github.com:projecthydra/browse-everything.git
+	url = git@github.com:samvera/browse-everything.git
 	branch = main
 [submodule "engines/local_time"]
 	path = engines/local_time
@@ -730,19 +730,15 @@
 	branch = main
 [submodule "apps/postal"]
 	path = apps/postal
-	url = git@github.com:atech/postal.git
+	url = git@github.com:postalserver/postal.git
 	branch = main
 [submodule "apps/hyku"]
 	path = apps/hyku
-	url = git@github.com:samvera-labs/hyku.git
+	url = git@github.com:samvera/hyku.git
 	branch = main
 [submodule "apps/crimethinc-website"]
 	path = apps/crimethinc-website
 	url = git@github.com:crimethinc/website.git
-	branch = main
-[submodule "apps/claim-for-crown-court-defence"]
-	path = apps/claim-for-crown-court-defence
-	url = git@github.com:ministryofjustice/Claim-for-Crown-Court-Defence.git
 	branch = main
 [submodule "apps/bike_index"]
 	path = apps/bike_index
@@ -770,7 +766,7 @@
 	branch = master
 [submodule "apps/dev.to"]
 	path = apps/dev.to
-	url = git@github.com:thepracticaldev/dev.to.git
+	url = git@github.com:forem/forem.git
 	branch = main
 [submodule "apps/zammad"]
 	path = apps/zammad
@@ -790,7 +786,7 @@
 	branch = main
 [submodule "apps/on_ruby"]
 	path = apps/on_ruby
-	url = git@github.com:phoet/on_ruby.git
+	url = git@github.com:rughh/on_ruby.git
 	branch = master
 [submodule "apps/eff-action-center-platform"]
 	path = apps/eff-action-center-platform

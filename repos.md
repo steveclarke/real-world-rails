@@ -13,10 +13,6 @@ an approval process automation tool [https://cap.18f.gov](https://cap.18f.gov)
 SumOfUs Online Campaign Platform.  
 [https://github.com/SumOfUs/Champaign](https://github.com/SumOfUs/Champaign)
 
-### Claim-for-Crown-Court-Defence
-Claim for Crown Court Defence, formerly Advocate Defence Payments (ADP), aka Crime Billing Online (CBO)  
-[https://github.com/ministryofjustice/Claim-for-Crown-Court-Defence](https://github.com/ministryofjustice/Claim-for-Crown-Court-Defence)
-
 ### Hours
 Time registration that doesn't suck [https://happyhours.io](https://happyhours.io)  
 [https://github.com/DefactoSoftware/Hours](https://github.com/DefactoSoftware/Hours)
@@ -31,7 +27,7 @@ Helps save cute cuddly puppies! [http://ophrescue.org](http://ophrescue.org)
 
 ### Scumblr
 Web framework that allows performing periodic syncs of data sources and performing analysis on the identified results  
-[https://github.com/Netflix/Scumblr](https://github.com/Netflix/Scumblr)
+[https://github.com/Netflix-Skunkworks/Scumblr](https://github.com/Netflix-Skunkworks/Scumblr)
 
 ### ShinyCMS-ruby
 ShinyCMS is an open-source CMS built in Ruby on Rails, with support for themes, plugins, and cloud hosting. (There is also a Perl version: www.github.com/denny/ShinyCMS) [https://shinycms.org](https://shinycms.org)  
@@ -87,7 +83,7 @@ Monitor and interact with local governments in the United States
 
 ### et-pet-et1
 Application for Applying To (an) Employment Tribunal   
-[https://github.com/ministryofjustice/atet](https://github.com/ministryofjustice/atet)
+[https://github.com/hmcts/et-pet-et1](https://github.com/hmcts/et-pet-et1)
 
 ### attachinary
 Attachments handler for Rails that uses Cloudinary for storage.  
@@ -114,7 +110,7 @@ Email helpdesk built using Ruby on Rails and Zurb Foundation [http://getbrimir.c
 
 ### browse-everything
 Rails engine providing access to files in cloud storage  
-[https://github.com/projecthydra/browse-everything](https://github.com/projecthydra/browse-everything)
+[https://github.com/samvera/browse-everything](https://github.com/samvera/browse-everything)
 
 ### calagator
 An open source community calendar platform written in Ruby on Rails [https://calagator.org](https://calagator.org)  
@@ -151,7 +147,7 @@ Create beautiful JavaScript charts with one line of Ruby [https://chartkick.com]
 
 ### cloudnet
 The Global Cloud Hosting Marketplace  
-[https://github.com/OnApp/cloudnet](https://github.com/OnApp/cloudnet)
+[https://github.com/virtuozzo/cloudnet](https://github.com/virtuozzo/cloudnet)
 
 ### cm42-central
 Fork and Evolution of the Fulcrum project - An agile project planning tool and Pivotal Tracker drop-in replacement [https://central.cm42.io](https://central.cm42.io)  
@@ -167,7 +163,7 @@ CodeMontage empowers coders to improve their impact on the world. Find open sour
 
 ### CodeTriage
 Discover the best way to get started contributing to Open Source projects [https://www.codetriage.com](https://www.codetriage.com)  
-[https://github.com/codetriage/codetriage](https://github.com/codetriage/codetriage)
+[https://github.com/codetriage/CodeTriage](https://github.com/codetriage/CodeTriage)
 
 ### communityengine
 Adds basic social networking capabilities to your existing application, including users, blogs, photos, clippings, favorites, and more. [http://www.communityengine.org](http://www.communityengine.org)  
@@ -179,7 +175,7 @@ Open source lovers, making easier to find cool projects to hack on! Wanna help?
 
 ### contribulator
 :+1: Find open source project that are friendly and welcoming  
-[https://github.com/andrew/contribulator](https://github.com/andrew/contribulator)
+[https://github.com/24pullrequests/contribulator](https://github.com/24pullrequests/contribulator)
 
 ### coursemology2
 Rails 6 re-write of Coursemology [https://coursemology.org](https://coursemology.org)  
@@ -187,7 +183,7 @@ Rails 6 re-write of Coursemology [https://coursemology.org](https://coursemology
 
 ### csvlint.io
  Check that your CSV files are valid [http://csvlint.io](http://csvlint.io)  
-[https://github.com/theodi/csvlint](https://github.com/theodi/csvlint)
+[https://github.com/Data-Liberation-Front/csvlint.io](https://github.com/Data-Liberation-Front/csvlint.io)
 
 ### cuttlefish
 Transactional email server with a lovely web interface [http://cuttlefish.io](http://cuttlefish.io)  
@@ -211,7 +207,7 @@ Defence Request Service - Rota Handling
 
 ### forem
 For empowering community 🌱 [https://forem.com](https://forem.com)  
-[https://github.com/thepracticaldev/dev.to](https://github.com/thepracticaldev/dev.to)
+[https://github.com/forem/forem](https://github.com/forem/forem)
 
 ### devise_authentication_api
 [https://github.com/ministryofjustice/devise_authentication_api](https://github.com/ministryofjustice/devise_authentication_api)
@@ -306,7 +302,7 @@ an application that automates the lifecycle of servers  [https://theforeman.org]
 
 ### hwf-staffapp
 Help with Court Fees Staff Interface  
-[https://github.com/ministryofjustice/fr-staffapp](https://github.com/ministryofjustice/fr-staffapp)
+[https://github.com/hmcts/hwf-staffapp](https://github.com/hmcts/hwf-staffapp)
 
 ### french_toast
 Communicate information about background jobs  
@@ -325,7 +321,7 @@ An agile project planning tool [http://wholemeal.co.nz/projects/fulcrum.html](ht
 
 ### gdi-website
 This is the official repository for the Girl Develop It website. [https://girldevelopit.com](https://girldevelopit.com)  
-[https://github.com/girldevelopit/gdi-new-site](https://github.com/girldevelopit/gdi-new-site)
+[https://github.com/girldevelopit/gdi-website](https://github.com/girldevelopit/gdi-website)
 
 ### git-scm.com
 The git-scm.com website. Note that this repository is only for the website; issues with git itself should go to https://git-scm.com/community. [https://git-scm.com/](https://git-scm.com/)  
@@ -381,11 +377,11 @@ GitHub issues made awesome [https://huboard.com](https://huboard.com)
 
 ### huginn
 Create agents that monitor and act on your behalf.  Your agents are standing by!  
-[https://github.com/cantino/huginn](https://github.com/cantino/huginn)
+[https://github.com/huginn/huginn](https://github.com/huginn/huginn)
 
 ### hyku
 Hyku: A multi-tenant Hyrax application built on the latest and greatest Samvera community components. Brought to you by the Hydra-in-a-Box project partners and IMLS; maintained by the Hyku Interest Group. [https://samvera.atlassian.net/wiki/spaces/hyku/overview](https://samvera.atlassian.net/wiki/spaces/hyku/overview)  
-[https://github.com/samvera-labs/hyku](https://github.com/samvera-labs/hyku)
+[https://github.com/samvera/hyku](https://github.com/samvera/hyku)
 
 ### hyrax
 Hyrax is a Ruby on Rails Engine built by the Samvera community. Hyrax provides a foundation for creating many different digital repository applications. [http://hyrax.samvera.org/](http://hyrax.samvera.org/)  
@@ -397,11 +393,11 @@ Login.gov Core App: Identity Provider (IdP) [https://secure.login.gov/](https://
 
 ### ifme
 Free, open source mental health communication web app to share experiences with loved ones [http://www.if-me.org/](http://www.if-me.org/)  
-[https://github.com/julianguyen/ifme](https://github.com/julianguyen/ifme)
+[https://github.com/ifmeorg/ifme](https://github.com/ifmeorg/ifme)
 
 ### places-manager
 "Find My Nearest" API and management tools on GOV.UK [https://docs.publishing.service.gov.uk/apps/imminence.html](https://docs.publishing.service.gov.uk/apps/imminence.html)  
-[https://github.com/alphagov/imminence](https://github.com/alphagov/imminence)
+[https://github.com/alphagov/places-manager](https://github.com/alphagov/places-manager)
 
 ### inch_ci-web
 Web frontend for Inch CI [http://inch-ci.org/](http://inch-ci.org/)  
@@ -413,7 +409,7 @@ Project Management, Collaboration and Time Tracking.
 
 ### kandan
 Kandan is an Open Source Alternative to HipChat  
-[https://github.com/kandanapp/kandan](https://github.com/kandanapp/kandan)
+[https://github.com/DamageLabs/kandan](https://github.com/DamageLabs/kandan)
 
 ### katello
 Katello integrates open source systems management tools into a single solution for controlling the lifecycle of your machines. [https://theforeman.org/plugins/katello/](https://theforeman.org/plugins/katello/)  
@@ -505,7 +501,7 @@ The open source API directory of community social services. [http://ohana-api-de
 
 ### on_ruby
 :gem: :diamonds: Whitelabel Site for Ruby Communities [http://www.onruby.eu](http://www.onruby.eu)
-[https://github.com/phoet/on_ruby](https://github.com/phoet/on_ruby)
+[https://github.com/rughh/on_ruby](https://github.com/rughh/on_ruby)
 
 ### once-campfire
 Campfire is a self-hosted group chat system with rooms, @mentions, direct messages, and mobile clients. Built by 37signals. [https://once.com/campfire](https://once.com/campfire)
@@ -573,11 +569,11 @@ Webapp to manage the workflow in Parliamentary Questions
 
 ### payola
 Drop-in Rails engine for accepting payments with Stripe [http://www.payola.io](http://www.payola.io)  
-[https://github.com/peterkeen/payola](https://github.com/peterkeen/payola)
+[https://github.com/payolapayments/payola](https://github.com/payolapayments/payola)
 
 ### peatio
 An open-source assets exchange.  
-[https://github.com/peatio/peatio](https://github.com/peatio/peatio)
+[https://github.com/hpyhacking/peatio](https://github.com/hpyhacking/peatio)
 
 ### pester
 Automatically ask for a PR review  
@@ -605,7 +601,7 @@ A Ruby on Rails Engine which provides a double entry accounting system for your 
 
 ### politwoops_sunlight
 Politwoops web front end  
-[https://github.com/sunlightlabs/politwoops](https://github.com/sunlightlabs/politwoops)
+[https://github.com/propublica/politwoops_sunlight](https://github.com/propublica/politwoops_sunlight)
 
 ### posse_party
 Quit social media by posting more.
@@ -613,7 +609,7 @@ Quit social media by posting more.
 
 ### postal
 A fully featured open source mail delivery platform for incoming & outgoing e-mail [https://postalserver.io](https://postalserver.io)  
-[https://github.com/atech/postal](https://github.com/atech/postal)
+[https://github.com/postalserver/postal](https://github.com/postalserver/postal)
 
 ### postgresql_lo_streamer
 A Rails engine to stream PostgreSQL Large Objects to clients [http://diogob.github.com/postgresql_lo_streamer/](http://diogob.github.com/postgresql_lo_streamer/)  
@@ -629,11 +625,11 @@ Old incarnation of the Prison Visits service. [https://www.prisonvisits.service.
 
 ### projectmonitor
 Big Visible Chart CI aggregator [http://ci.pivotallabs.com](http://ci.pivotallabs.com)  
-[https://github.com/pivotal/projectmonitor](https://github.com/pivotal/projectmonitor)
+[https://github.com/vmware-archive/projectmonitor](https://github.com/vmware-archive/projectmonitor)
 
 ### theyvoteforyou
 Making parliamentary voting information accessible, understandable, and easy to use so that you can hold your elected representatives to account. [https://theyvoteforyou.org.au/](https://theyvoteforyou.org.au/)  
-[https://github.com/openaustralia/publicwhip](https://github.com/openaustralia/publicwhip)
+[https://github.com/openaustralia/theyvoteforyou](https://github.com/openaustralia/theyvoteforyou)
 
 ### publify
 A self hosted Web publishing platform on Rails. [http://publify.github.io/](http://publify.github.io/)  
@@ -657,11 +653,11 @@ Radiant is a no-fluff, open source content management system designed for small 
 
 ### rails-contributors
 The web application that runs https://contributors.rubyonrails.org  
-[https://github.com/fxn/rails-contributors](https://github.com/fxn/rails-contributors)
+[https://github.com/rails/rails-contributors](https://github.com/rails/rails-contributors)
 
 ### rapidfire
 Making dynamic surveys should be easy! [https://rapidfire.fly.dev/](https://rapidfire.fly.dev/)  
-[https://github.com/code-mancers/rapidfire](https://github.com/code-mancers/rapidfire)
+[https://github.com/codemancers/rapidfire](https://github.com/codemancers/rapidfire)
 
 ### rapporteur
 A Rails Engine which provides a customizable status page on your application. [http://rubygems.org/gems/rapporteur](http://rubygems.org/gems/rapporteur)  
@@ -697,7 +693,7 @@ Long Running Ruby Benchmarks [https://rubybench.org](https://rubybench.org)
 
 ### homeland
 :circus_tent: An open source forum/community system based on Rails, developed based on Ruby China. [https://homeland.ruby-china.org](https://homeland.ruby-china.org)  
-[https://github.com/ruby-china/ruby-china](https://github.com/ruby-china/ruby-china)
+[https://github.com/ruby-china/homeland](https://github.com/ruby-china/homeland)
 
 ### rubygems.org
 The Ruby community's gem hosting service. [https://rubygems.org](https://rubygems.org)  
@@ -749,7 +745,7 @@ The website for showterm!
 
 ### signon
 Single sign-on service for GOV.UK [https://docs.publishing.service.gov.uk/apps/signon.html](https://docs.publishing.service.gov.uk/apps/signon.html)  
-[https://github.com/alphagov/signonotron2](https://github.com/alphagov/signonotron2)
+[https://github.com/alphagov/signon](https://github.com/alphagov/signon)
 
 ### snibox
 Self-hosted snippet manager [https://snibox.github.io/](https://snibox.github.io/)  
@@ -805,7 +801,7 @@ Tolk is a web interface for doing i18n translations packaged as an engine for Ra
 
 ### tomatoes
 Pomodoro Technique® online time tracker [http://www.tomato.es](http://www.tomato.es)  
-[https://github.com/potomak/tomatoes](https://github.com/potomak/tomatoes)
+[https://github.com/tomatoes-app/tomatoes](https://github.com/tomatoes-app/tomatoes)
 
 ### tracks
 Tracks is a GTD™ web application, built with Ruby on Rails [https://www.getontracks.org/](https://www.getontracks.org/)  
@@ -856,16 +852,9 @@ All of the code that runs on worldcubeassociation.org [https://www.worldcubeasso
 
 ### xrono
 Xrono is an asset and time tracking application for consultants and consulting companies. [http://www.xrono.org](http://www.xrono.org)  
-[https://github.com/isotope11/xrono](https://github.com/isotope11/xrono)
+[https://github.com/ironmtntech/xrono](https://github.com/ironmtntech/xrono)
 
 ### zammad
 Zammad is a web based open source helpdesk/customer support system [https://zammad.org](https://zammad.org)  
 [https://github.com/zammad/zammad](https://github.com/zammad/zammad)
 
-
-## Moved/Missing/Deleted Repos
-TODO: check the repos below - moved, renamed or deleted?
-
-- https://github.com/education/classroom
-- https://github.com/churchio/onebody
-- https://github.com/FlyoverWorks/storytime
