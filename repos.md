@@ -931,10 +931,3 @@ Truth Social (reskinned mastodon)
 ### yll
 A lightweight and secure URL shortener  
 [https://github.com/davidesantangelo/yll](https://github.com/davidesantangelo/yll)
-
-## Moved/Missing/Deleted Repos
-TODO: check the repos below - moved, renamed or deleted?
-
-- https://github.com/education/classroom
-- https://github.com/churchio/onebody
-- https://github.com/FlyoverWorks/storytime
