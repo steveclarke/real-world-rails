@@ -874,3 +874,79 @@
 	path = apps/otwarchive
 	url = git@github.com:otwcode/otwarchive.git
 	branch = master
+[submodule "apps/email-rails"]
+	path = apps/email-rails
+	url = git@github.com:caley-io/email-rails.git
+	branch = main
+[submodule "apps/truthsocial"]
+	path = apps/truthsocial
+	url = git@github.com:boehs/truthsocial.git
+	branch = main
+[submodule "apps/asap_pdf"]
+	path = apps/asap_pdf
+	url = git@github.com:codeforamerica/asap_pdf.git
+	branch = main
+[submodule "apps/yll"]
+	path = apps/yll
+	url = git@github.com:davidesantangelo/yll.git
+	branch = main
+[submodule "apps/property_web_builder"]
+	path = apps/property_web_builder
+	url = git@github.com:etewiah/property_web_builder.git
+	branch = master
+[submodule "apps/hcb"]
+	path = apps/hcb
+	url = git@github.com:hackclub/hcb.git
+	branch = main
+[submodule "apps/rubyland"]
+	path = apps/rubyland
+	url = git@github.com:jrochkind/rubyland.git
+	branch = master
+[submodule "apps/maybe"]
+	path = apps/maybe
+	url = git@github.com:maybe-finance/maybe.git
+	branch = main
+[submodule "apps/rauversion"]
+	path = apps/rauversion
+	url = git@github.com:rauversion/rauversion.git
+	branch = main
+[submodule "apps/stocks-in-the-future"]
+	path = apps/stocks-in-the-future
+	url = git@github.com:rubyforgood/stocks-in-the-future.git
+	branch = main
+[submodule "apps/showcase"]
+	path = apps/showcase
+	url = git@github.com:rubys/showcase.git
+	branch = main
+[submodule "apps/rails-world"]
+	path = apps/rails-world
+	url = git@github.com:TelosLabs/rails-world.git
+	branch = main
+[submodule "apps/thingybase"]
+	path = apps/thingybase
+	url = git@github.com:thingybase/server.git
+	branch = main
+[submodule "apps/nutrition_tracker"]
+	path = apps/nutrition_tracker
+	url = git@github.com:varun2407/nutrition_tracker.git
+	branch = main
+[submodule "apps/campsite"]
+	path = apps/campsite
+	url = git@github.com:campsite/campsite.git
+	branch = main
+[submodule "apps/chaskiq"]
+	path = apps/chaskiq
+	url = git@github.com:chaskiq/chaskiq.git
+	branch = main
+[submodule "apps/planner"]
+	path = apps/planner
+	url = git@github.com:codebar/planner.git
+	branch = master
+[submodule "apps/redprints-cfp"]
+	path = apps/redprints-cfp
+	url = git@github.com:evilmartians/redprints-cfp.git
+	branch = main
+[submodule "apps/daily-log"]
+	path = apps/daily-log
+	url = git@github.com:joemasilotti/daily-log.git
+	branch = main
