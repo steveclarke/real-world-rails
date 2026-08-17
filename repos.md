@@ -858,3 +858,83 @@ Xrono is an asset and time tracking application for consultants and consulting c
 Zammad is a web based open source helpdesk/customer support system [https://zammad.org](https://zammad.org)  
 [https://github.com/zammad/zammad](https://github.com/zammad/zammad)
 
+### email-rails
+A new era for emails  
+[https://github.com/caley-io/email-rails](https://github.com/caley-io/email-rails)
+
+### asap_pdf
+A Rails application for navigating PDF accessibility audits.  
+[https://github.com/codeforamerica/asap_pdf](https://github.com/codeforamerica/asap_pdf)
+
+### campsite
+[https://github.com/campsite/campsite](https://github.com/campsite/campsite)
+
+### chaskiq
+A full featured Live Chat, Support & Marketing platform, alternative to Intercom, Drift, Crisp, etc  
+[https://github.com/chaskiq/chaskiq](https://github.com/chaskiq/chaskiq)
+
+### daily-log
+Rails and iOS app to track daily habits like exercise, medication, food, and water.  
+[https://github.com/joemasilotti/daily-log](https://github.com/joemasilotti/daily-log)
+
+### hcb
+The neobank built for nonprofits.  
+[https://github.com/hackclub/hcb](https://github.com/hackclub/hcb)
+
+### maybe
+The OS for your personal finances  
+[https://github.com/maybe-finance/maybe](https://github.com/maybe-finance/maybe)
+
+### nutrition_tracker
+[https://github.com/varun2407/nutrition_tracker](https://github.com/varun2407/nutrition_tracker)
+
+### planner
+A tool to help manage codebar.io members and events.  
+[https://github.com/codebar/planner](https://github.com/codebar/planner)
+
+### property_web_builder
+Create a fully featured real estate website on Rails in minutes!  
+[https://github.com/etewiah/property_web_builder](https://github.com/etewiah/property_web_builder)
+
+### rails-world
+Official App for the Rails World 2025 Conference  
+[https://github.com/TelosLabs/rails-world](https://github.com/TelosLabs/rails-world)
+
+### rauversion
+Open source Music Multiverses  
+[https://github.com/rauversion/rauversion](https://github.com/rauversion/rauversion)
+
+### redprints-cfp
+An open source CFP management app built with Rails + Inertia.js  
+[https://github.com/evilmartians/redprints-cfp](https://github.com/evilmartians/redprints-cfp)
+
+### rubyland
+The code behind rubyland.news  
+[https://github.com/jrochkind/rubyland](https://github.com/jrochkind/rubyland)
+
+### thingybase
+Rails server for Thingybase.com, a way to organize, track, & treasure your stuff  
+[https://github.com/thingybase/server](https://github.com/thingybase/server)
+
+### showcase
+Ballroom Dance Showcase Scheduler  
+[https://github.com/rubys/showcase](https://github.com/rubys/showcase)
+
+### stocks-in-the-future
+A program with the mission of developing highly motivated middle school students who are eager to learn and dedicated to attending class through the use of incentives coupled with a financial literacy curriculum focused on investing that reinforces Math, Language Arts and Social Studies  
+[https://github.com/rubyforgood/stocks-in-the-future](https://github.com/rubyforgood/stocks-in-the-future)
+
+### truthsocial
+Truth Social (reskinned mastodon)  
+[https://github.com/boehs/truthsocial](https://github.com/boehs/truthsocial)
+
+### yll
+A lightweight and secure URL shortener  
+[https://github.com/davidesantangelo/yll](https://github.com/davidesantangelo/yll)
+
+## Moved/Missing/Deleted Repos
+TODO: check the repos below - moved, renamed or deleted?
+
+- https://github.com/education/classroom
+- https://github.com/churchio/onebody
+- https://github.com/FlyoverWorks/storytime
