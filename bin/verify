@@ -1,0 +1,109 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+################################################################################
+# Real World Rails Verify
+################################################################################
+#
+# OVERVIEW
+# --------
+# Check that each submodule repo still exists on GitHub and hasn't been moved
+# or renamed. Uses `gh` CLI (must be authenticated).
+#
+# USAGE
+# -----
+#   bin/verify
+#
+################################################################################
+
+# Colors
+red='\033[0;31m'
+green='\033[0;32m'
+yellow='\033[1;33m'
+nc='\033[0m'
+
+################################################################################
+# Main Orchestration
+################################################################################
+
+main() {
+  local repos=()
+  local owner name
+  local total=0
+  local ok=0
+  local missing=()
+  local renamed=()
+
+  # Parse .gitmodules for repo URLs
+  while IFS= read -r url; do
+    if [[ "$url" =~ github\.com[:/]([^/]+)/([^/]+) ]]; then
+      owner="${BASH_REMATCH[1]}"
+      name="${BASH_REMATCH[2]}"
+      name="${name%.git}"
+      repos+=("${owner}/${name}")
+    fi
+  done < <(git config --file .gitmodules --get-regexp '\.url$' | cut -d' ' -f2)
+
+  total=${#repos[@]}
+  echo "Checking $total repos..."
+  echo ""
+
+  for i in "${!repos[@]}"; do
+    local expected="${repos[$i]}"
+    local idx=$((i + 1))
+
+    printf "%-60s (%d of %d)" "$expected" "$idx" "$total"
+
+    # Fetch canonical name; if repo is missing, gh exits non-zero
+    local actual
+    if actual=$(gh repo view "$expected" --json nameWithOwner --jq '.nameWithOwner' 2>/dev/null); then
+      if [[ "$actual" == "$expected" ]]; then
+        echo -e " ${green}OK${nc}"
+        ok=$((ok + 1))
+      else
+        echo -e " ${yellow}RENAMED -> $actual${nc}"
+        renamed+=("$expected -> $actual")
+      fi
+    else
+      echo -e " ${red}MISSING${nc}"
+      missing+=("$expected")
+    fi
+  done
+
+  # Summary
+  echo ""
+  echo "======================================"
+  echo "Summary"
+  echo "======================================"
+  echo "  Total:   $total"
+  echo -e "  OK:      ${green}$ok${nc}"
+
+  if [[ ${#missing[@]} -gt 0 ]]; then
+    echo -e "  Missing: ${red}${#missing[@]}${nc}"
+    echo ""
+    echo -e "${red}Missing repos:${nc}"
+    for r in "${missing[@]}"; do
+      echo "  - $r"
+    done
+  else
+    echo "  Missing: 0"
+  fi
+
+  if [[ ${#renamed[@]} -gt 0 ]]; then
+    echo -e "  Renamed: ${yellow}${#renamed[@]}${nc}"
+    echo ""
+    echo -e "${yellow}Renamed/moved repos:${nc}"
+    for r in "${renamed[@]}"; do
+      echo "  - $r"
+    done
+  else
+    echo "  Renamed: 0"
+  fi
+  echo ""
+}
+
+################################################################################
+# Script Execution
+################################################################################
+
+main "$@"
