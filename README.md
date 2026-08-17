@@ -60,6 +60,7 @@ If you want to update all submodules to the absolute latest right now (without w
 - **`bin/update`** — Pull latest changes and update all submodules to their latest remote commits
 - **`bin/status`** — Show how many apps are initialized
 - **`bin/add`** — Add a new app or engine by GitHub URL (e.g. `bin/add https://github.com/user/repo`)
+- **`bin/verify`** — Check that each submodule repo still exists on GitHub and hasn't been moved or renamed (requires `gh` CLI)
 
 ## Contributing
 
