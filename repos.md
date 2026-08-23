@@ -137,6 +137,9 @@ An editor for digital case files.
 The first open source crowdfunding platform for creative projects in the world [http://catarse.me](http://catarse.me)  
 [https://github.com/catarse/catarse](https://github.com/catarse/catarse)
 
+### chatwoot
+[https://github.com/chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
+
 ### cfp-app
 Rails app for managing a conference CFP  
 [https://github.com/rubycentral/cfp-app](https://github.com/rubycentral/cfp-app)
@@ -144,6 +147,9 @@ Rails app for managing a conference CFP
 ### chartkick
 Create beautiful JavaScript charts with one line of Ruby [https://chartkick.com](https://chartkick.com)  
 [https://github.com/ankane/chartkick](https://github.com/ankane/chartkick)
+
+### classroom
+[https://github.com/github-education-resources/classroom](https://github.com/github-education-resources/classroom)
 
 ### cloudnet
 The Global Cloud Hosting Marketplace  
@@ -503,6 +509,9 @@ The open source API directory of community social services. [http://ohana-api-de
 :gem: :diamonds: Whitelabel Site for Ruby Communities [http://www.onruby.eu](http://www.onruby.eu)
 [https://github.com/rughh/on_ruby](https://github.com/rughh/on_ruby)
 
+### onebody
+[https://github.com/seven1m/onebody](https://github.com/seven1m/onebody)
+
 ### once-campfire
 Campfire is a self-hosted group chat system with rooms, @mentions, direct messages, and mobile clients. Built by 37signals. [https://once.com/campfire](https://once.com/campfire)
 [https://github.com/basecamp/once-campfire](https://github.com/basecamp/once-campfire)
@@ -770,6 +779,9 @@ A simple UI for browsing and inspecting diffs, and an API for runner scripts to 
 ### spree
 An open source eCommerce platform giving you full control and customizability. Modular and API-first. Build any eCommerce solution that your business requires. [https://spreecommerce.org](https://spreecommerce.org)  
 [https://github.com/spree/spree](https://github.com/spree/spree)
+
+### storytime
+[https://github.com/CultivateLabs/storytime](https://github.com/CultivateLabs/storytime)
 
 ### stripe_event
 Stripe webhook integration for Rails applications. [https://rubygems.org/gems/stripe_event](https://rubygems.org/gems/stripe_event)  
