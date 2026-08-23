@@ -138,6 +138,7 @@ The first open source crowdfunding platform for creative projects in the world [
 [https://github.com/catarse/catarse](https://github.com/catarse/catarse)
 
 ### chatwoot
+Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc.
 [https://github.com/chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
 
 ### cfp-app
@@ -149,6 +150,7 @@ Create beautiful JavaScript charts with one line of Ruby [https://chartkick.com]
 [https://github.com/ankane/chartkick](https://github.com/ankane/chartkick)
 
 ### classroom
+GitHub Classroom automates repository creation and access control, making it easy for teachers to distribute starter code and collect assignments on GitHub.
 [https://github.com/github-education-resources/classroom](https://github.com/github-education-resources/classroom)
 
 ### cloudnet
@@ -510,6 +512,7 @@ The open source API directory of community social services. [http://ohana-api-de
 [https://github.com/rughh/on_ruby](https://github.com/rughh/on_ruby)
 
 ### onebody
+Private member portal for churches, built with Ruby on Rails.
 [https://github.com/seven1m/onebody](https://github.com/seven1m/onebody)
 
 ### once-campfire
@@ -781,6 +784,7 @@ An open source eCommerce platform giving you full control and customizability. M
 [https://github.com/spree/spree](https://github.com/spree/spree)
 
 ### storytime
+Storytime is a Rails 4+ CMS and blogging engine, with a core focus on content. It is built and maintained by @cultivatelabs.
 [https://github.com/CultivateLabs/storytime](https://github.com/CultivateLabs/storytime)
 
 ### stripe_event
