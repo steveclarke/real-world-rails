@@ -29,7 +29,7 @@
 [submodule "apps/storytime"]
 	path = apps/storytime
 	url = git@github.com:CultivateLabs/storytime.git
-	branch = master
+	branch = main
 [submodule "apps/refinerycms"]
 	path = apps/refinerycms
 	url = git@github.com:refinery/refinerycms.git
@@ -149,7 +149,7 @@
 [submodule "apps/peatio"]
 	path = apps/peatio
 	url = git@github.com:hpyhacking/peatio.git
-	branch = main
+	branch = legacy-2018
 [submodule "apps/scumblr"]
 	path = apps/scumblr
 	url = git@github.com:Netflix-Skunkworks/Scumblr.git
@@ -265,7 +265,7 @@
 [submodule "apps/kandan"]
 	path = apps/kandan
 	url = git@github.com:DamageLabs/kandan.git
-	branch = master
+	branch = main
 [submodule "apps/ruby-china"]
 	path = apps/ruby-china
 	url = git@github.com:ruby-china/homeland.git
@@ -337,10 +337,6 @@
 [submodule "apps/github-awards"]
 	path = apps/github-awards
 	url = git@github.com:vdaubry/github-awards.git
-	branch = master
-[submodule "apps/prison-visits"]
-	path = apps/prison-visits
-	url = git@github.com:ministryofjustice/prison-visits.git
 	branch = master
 [submodule "apps/case_file_editor"]
 	path = apps/case_file_editor

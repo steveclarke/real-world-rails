@@ -631,10 +631,6 @@ A Rails engine to stream PostgreSQL Large Objects to clients [http://diogob.gith
 Server for the ControlShift Prague donation application  
 [https://github.com/controlshift/prague-server](https://github.com/controlshift/prague-server)
 
-### prison-visits
-Old incarnation of the Prison Visits service. [https://www.prisonvisits.service.gov.uk](https://www.prisonvisits.service.gov.uk)  
-[https://github.com/ministryofjustice/prison-visits](https://github.com/ministryofjustice/prison-visits)
-
 ### projectmonitor
 Big Visible Chart CI aggregator [http://ci.pivotallabs.com](http://ci.pivotallabs.com)  
 [https://github.com/vmware-archive/projectmonitor](https://github.com/vmware-archive/projectmonitor)
