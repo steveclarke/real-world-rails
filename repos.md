@@ -947,3 +947,27 @@ Truth Social (reskinned mastodon)
 ### yll
 A lightweight and secure URL shortener  
 [https://github.com/davidesantangelo/yll](https://github.com/davidesantangelo/yll)
+
+### decidim
+The participatory democracy framework for citizen participation and open government.
+[https://github.com/decidim/decidim](https://github.com/decidim/decidim)
+
+### activeadmin
+The administration framework for Ruby on Rails applications.
+[https://github.com/activeadmin/activeadmin](https://github.com/activeadmin/activeadmin)
+
+### rails_admin
+Rails engine that provides an easy-to-use interface for managing your data.
+[https://github.com/railsadminteam/rails_admin](https://github.com/railsadminteam/rails_admin)
+
+### trestle
+A modern, responsive admin framework for Ruby on Rails.
+[https://github.com/TrestleAdmin/trestle](https://github.com/TrestleAdmin/trestle)
+
+### motor-admin
+No-code admin panel and business intelligence tool for Rails applications.
+[https://github.com/motor-admin/motor-admin](https://github.com/motor-admin/motor-admin)
+
+### bullet_train
+The open source Ruby on Rails SaaS application template.
+[https://github.com/bullet-train-co/bullet_train](https://github.com/bullet-train-co/bullet_train)

@@ -950,3 +950,27 @@
 	path = apps/daily-log
 	url = git@github.com:joemasilotti/daily-log.git
 	branch = main
+[submodule "apps/decidim"]
+	path = apps/decidim
+	url = git@github.com:decidim/decidim.git
+	branch = develop
+[submodule "engines/activeadmin"]
+	path = engines/activeadmin
+	url = git@github.com:activeadmin/activeadmin.git
+	branch = master
+[submodule "engines/rails_admin"]
+	path = engines/rails_admin
+	url = git@github.com:railsadminteam/rails_admin.git
+	branch = master
+[submodule "engines/trestle"]
+	path = engines/trestle
+	url = git@github.com:TrestleAdmin/trestle.git
+	branch = main
+[submodule "engines/motor-admin"]
+	path = engines/motor-admin
+	url = git@github.com:motor-admin/motor-admin.git
+	branch = master
+[submodule "apps/bullet_train"]
+	path = apps/bullet_train
+	url = git@github.com:bullet-train-co/bullet_train.git
+	branch = main
