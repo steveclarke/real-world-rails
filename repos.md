@@ -138,7 +138,7 @@ The first open source crowdfunding platform for creative projects in the world [
 [https://github.com/catarse/catarse](https://github.com/catarse/catarse)
 
 ### chatwoot
-Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc.
+Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc.  
 [https://github.com/chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
 
 ### cfp-app
@@ -150,7 +150,7 @@ Create beautiful JavaScript charts with one line of Ruby [https://chartkick.com]
 [https://github.com/ankane/chartkick](https://github.com/ankane/chartkick)
 
 ### classroom
-GitHub Classroom automates repository creation and access control, making it easy for teachers to distribute starter code and collect assignments on GitHub.
+GitHub Classroom automates repository creation and access control, making it easy for teachers to distribute starter code and collect assignments on GitHub.  
 [https://github.com/github-education-resources/classroom](https://github.com/github-education-resources/classroom)
 
 ### cloudnet
@@ -512,7 +512,7 @@ The open source API directory of community social services. [http://ohana-api-de
 [https://github.com/rughh/on_ruby](https://github.com/rughh/on_ruby)
 
 ### onebody
-Private member portal for churches, built with Ruby on Rails.
+Private member portal for churches, built with Ruby on Rails.  
 [https://github.com/seven1m/onebody](https://github.com/seven1m/onebody)
 
 ### once-campfire
@@ -784,7 +784,7 @@ An open source eCommerce platform giving you full control and customizability. M
 [https://github.com/spree/spree](https://github.com/spree/spree)
 
 ### storytime
-Storytime is a Rails 4+ CMS and blogging engine, with a core focus on content. It is built and maintained by @cultivatelabs.
+Storytime is a Rails 4+ CMS and blogging engine, with a core focus on content. It is built and maintained by @cultivatelabs.  
 [https://github.com/CultivateLabs/storytime](https://github.com/CultivateLabs/storytime)
 
 ### stripe_event
@@ -949,25 +949,25 @@ A lightweight and secure URL shortener
 [https://github.com/davidesantangelo/yll](https://github.com/davidesantangelo/yll)
 
 ### decidim
-The participatory democracy framework for citizen participation and open government.
+The participatory democracy framework for citizen participation and open government.  
 [https://github.com/decidim/decidim](https://github.com/decidim/decidim)
 
 ### activeadmin
-The administration framework for Ruby on Rails applications.
+The administration framework for Ruby on Rails applications.  
 [https://github.com/activeadmin/activeadmin](https://github.com/activeadmin/activeadmin)
 
 ### rails_admin
-Rails engine that provides an easy-to-use interface for managing your data.
+Rails engine that provides an easy-to-use interface for managing your data.  
 [https://github.com/railsadminteam/rails_admin](https://github.com/railsadminteam/rails_admin)
 
 ### trestle
-A modern, responsive admin framework for Ruby on Rails.
+A modern, responsive admin framework for Ruby on Rails.  
 [https://github.com/TrestleAdmin/trestle](https://github.com/TrestleAdmin/trestle)
 
 ### motor-admin
-No-code admin panel and business intelligence tool for Rails applications.
+No-code admin panel and business intelligence tool for Rails applications.  
 [https://github.com/motor-admin/motor-admin](https://github.com/motor-admin/motor-admin)
 
 ### bullet_train
-The open source Ruby on Rails SaaS application template.
+The open source Ruby on Rails SaaS application template.  
 [https://github.com/bullet-train-co/bullet_train](https://github.com/bullet-train-co/bullet_train)
