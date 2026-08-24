@@ -20,6 +20,10 @@ jobs:
       - name: Create branch
         run: git checkout -b submodules-update-$TODAY
 
+      - name: Use HTTPS for GitHub submodule URLs
+        # The runner has no SSH key, so git@github.com: URLs can't be cloned
+        run: git config --global url."https://github.com/".insteadOf "git@github.com:"
+
       - name: Update submodules to latest
         run: |
           failed=""
@@ -32,6 +36,7 @@ jobs:
           if [ -n "$failed" ]; then
             echo "::warning::Failed submodules:$failed"
           fi
+          echo "FAILED=$failed" >> $GITHUB_ENV
 
       - name: Configure git user
         run: |
@@ -65,3 +70,9 @@ jobs:
             --fill \
             --reviewer steveclarke \
             --base ${{ github.ref_name }}
+
+      - name: Fail if any submodules could not be updated
+        if: env.FAILED != ''
+        run: |
+          echo "::error::Failed submodules:$FAILED"
+          exit 1
