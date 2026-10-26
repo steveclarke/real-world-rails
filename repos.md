@@ -77,10 +77,6 @@ Alchemy is the Open Source Rails CMS framework for the component based web that 
 A free, open source, non-commercial home for musicians and their music [https://alonetone.com](https://alonetone.com)  
 [https://github.com/sudara/alonetone](https://github.com/sudara/alonetone)
 
-### askthem
-Monitor and interact with local governments in the United States  
-[https://github.com/opengovernment/askthem](https://github.com/opengovernment/askthem)
-
 ### et-pet-et1
 Application for Applying To (an) Employment Tribunal   
 [https://github.com/hmcts/et-pet-et1](https://github.com/hmcts/et-pet-et1)
@@ -240,10 +236,6 @@ The EPA e-Manifest project
 This is the code base for the UK Government's e-petitions service (https://petition.parliament.uk) [https://petition.parliament.uk](https://petition.parliament.uk)  
 [https://github.com/alphagov/e-petitions](https://github.com/alphagov/e-petitions)
 
-### earthdata-search
-Earthdata Search is a web application developed by NASA EOSDIS to enable data discovery, search, comparison, visualization, and access across EOSDIS' Earth Science data holdings. [https://search.earthdata.nasa.gov](https://search.earthdata.nasa.gov)  
-[https://github.com/nasa/earthdata-search](https://github.com/nasa/earthdata-search)
-
 ### easymon
 Easy Monitoring  
 [https://github.com/basecamp/easymon](https://github.com/basecamp/easymon)
@@ -331,10 +323,6 @@ An agile project planning tool [http://wholemeal.co.nz/projects/fulcrum.html](ht
 This is the official repository for the Girl Develop It website. [https://girldevelopit.com](https://girldevelopit.com)  
 [https://github.com/girldevelopit/gdi-website](https://github.com/girldevelopit/gdi-website)
 
-### git-scm.com
-The git-scm.com website. Note that this repository is only for the website; issues with git itself should go to https://git-scm.com/community. [https://git-scm.com/](https://git-scm.com/)  
-[https://github.com/git/git-scm.com](https://github.com/git/git-scm.com)
-
 ### github-awards
 Discover your ranking on github : [http://git-awards.com](http://git-awards.com)  
 [https://github.com/vdaubry/github-awards](https://github.com/vdaubry/github-awards)
@@ -414,10 +402,6 @@ Web frontend for Inch CI [http://inch-ci.org/](http://inch-ci.org/)
 ### jobsworth
 Project Management, Collaboration and Time Tracking.  
 [https://github.com/ari/jobsworth](https://github.com/ari/jobsworth)
-
-### kandan
-Kandan is an Open Source Alternative to HipChat  
-[https://github.com/DamageLabs/kandan](https://github.com/DamageLabs/kandan)
 
 ### katello
 Katello integrates open source systems management tools into a single solution for controlling the lifecycle of your machines. [https://theforeman.org/plugins/katello/](https://theforeman.org/plugins/katello/)  

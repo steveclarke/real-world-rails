@@ -182,10 +182,6 @@
 	path = apps/ohana-api
 	url = git@github.com:codeforamerica/ohana-api.git
 	branch = master
-[submodule "apps/askthem"]
-	path = apps/askthem
-	url = git@github.com:opengovernment/askthem.git
-	branch = main
 [submodule "apps/opengovernment"]
 	path = apps/opengovernment
 	url = git@github.com:opengovernment/opengovernment.git
@@ -262,10 +258,6 @@
 	path = apps/c2
 	url = git@github.com:18F/C2.git
 	branch = master
-[submodule "apps/kandan"]
-	path = apps/kandan
-	url = git@github.com:DamageLabs/kandan.git
-	branch = main
 [submodule "apps/ruby-china"]
 	path = apps/ruby-china
 	url = git@github.com:ruby-china/homeland.git
@@ -282,10 +274,6 @@
 	path = apps/panamax-ui
 	url = git@github.com:CenturyLinkLabs/panamax-ui.git
 	branch = master
-[submodule "apps/git-scm"]
-	path = apps/git-scm
-	url = git@github.com:git/git-scm.com.git
-	branch = gh-pages
 [submodule "apps/ror_ecommerce"]
 	path = apps/ror_ecommerce
 	url = git@github.com:drhenner/ror_ecommerce.git
@@ -390,10 +378,6 @@
 	path = apps/katello
 	url = git@github.com:Katello/katello.git
 	branch = master
-[submodule "apps/earthdata-search"]
-	path = apps/earthdata-search
-	url = git@github.com:nasa/earthdata-search.git
-	branch = main
 [submodule "apps/rescue-rails"]
 	path = apps/rescue-rails
 	url = git@github.com:ophrescue/RescueRails.git
