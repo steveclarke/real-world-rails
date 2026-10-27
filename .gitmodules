@@ -189,7 +189,7 @@
 [submodule "apps/growstuff"]
 	path = apps/growstuff
 	url = git@github.com:Growstuff/growstuff.git
-	branch = dev
+	branch = main
 [submodule "apps/girldevelopit"]
 	path = apps/girldevelopit
 	url = git@github.com:girldevelopit/gdi-website.git
