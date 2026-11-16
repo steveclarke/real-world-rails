@@ -419,10 +419,6 @@ Secrets created by kevlar.io are kept until they are accessed, they are then del
 Klaxon enables reporters and editors to monitor scores of sites on the web for newsworthy changes. [https://newsklaxon.org](https://newsklaxon.org)  
 [https://github.com/themarshallproject/klaxon](https://github.com/themarshallproject/klaxon)
 
-### lale-help
-A collaborative platform for volunteer refugee support. [http://lale.help](http://lale.help)  
-[https://github.com/lale-help/lale-help](https://github.com/lale-help/lale-help)
-
 ### lentil
 Lentil is no longer supported. Lentil is a Ruby on Rails Engine that supports the harvesting of images from Instagram. [https://lib.ncsu.edu/projects/my-huntlibrary](https://lib.ncsu.edu/projects/my-huntlibrary)  
 [https://github.com/NCSU-Libraries/lentil](https://github.com/NCSU-Libraries/lentil)

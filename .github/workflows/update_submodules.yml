@@ -18,7 +18,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create branch
-        run: git checkout -b submodules-update-$TODAY
+        # Manual proofs and retries must not collide with the scheduled branch.
+        run: |
+          branch="submodules-update-$TODAY"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            branch="$branch-${{ github.run_id }}-${{ github.run_attempt }}"
+          fi
+          git checkout -b "$branch"
 
       - name: Use HTTPS for GitHub submodule URLs
         # The runner has no SSH key, so git@github.com: URLs can't be cloned
