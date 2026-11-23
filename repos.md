@@ -41,10 +41,6 @@ Spina CMS [http://www.spinacms.com](http://www.spinacms.com)
 Wiki Education Foundation's Wikipedia course dashboard system [https://dashboard.wikiedu.org](https://dashboard.wikiedu.org)  
 [https://github.com/WikiEducationFoundation/WikiEduDashboard](https://github.com/WikiEducationFoundation/WikiEduDashboard)
 
-### accelerated_claims
-** Unmaintained repository! **  Accelerated Claims app  
-[https://github.com/ministryofjustice/accelerated_claims](https://github.com/ministryofjustice/accelerated_claims)
-
 ### action-center-platform
 The EFF Action Center Platform  
 [https://github.com/EFForg/action-center-platform](https://github.com/EFForg/action-center-platform)
@@ -124,10 +120,6 @@ Connect Any App to Any Service [https://github.com/nebulab/cangaroo](https://git
 The open LMS by Instructure, Inc. [https://github.com/instructure/canvas-lms/wiki](https://github.com/instructure/canvas-lms/wiki)  
 [https://github.com/instructure/canvas-lms](https://github.com/instructure/canvas-lms)
 
-
-### case_file_editor
-An editor for digital case files.  
-[https://github.com/ministryofjustice/case_file_editor](https://github.com/ministryofjustice/case_file_editor)
 
 ### catarse
 The first open source crowdfunding platform for creative projects in the world [http://catarse.me](http://catarse.me)  
@@ -212,9 +204,6 @@ Defence Request Service - Rota Handling
 ### forem
 For empowering community 🌱 [https://forem.com](https://forem.com)  
 [https://github.com/forem/forem](https://github.com/forem/forem)
-
-### devise_authentication_api
-[https://github.com/ministryofjustice/devise_authentication_api](https://github.com/ministryofjustice/devise_authentication_api)
 
 ### diaspora
 A privacy-aware, distributed, open source social network. [https://diasporafoundation.org/](https://diasporafoundation.org/)  

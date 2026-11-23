@@ -326,14 +326,6 @@
 	path = apps/github-awards
 	url = git@github.com:vdaubry/github-awards.git
 	branch = master
-[submodule "apps/case_file_editor"]
-	path = apps/case_file_editor
-	url = git@github.com:ministryofjustice/case_file_editor.git
-	branch = master
-[submodule "apps/accelerated_claims"]
-	path = apps/accelerated_claims
-	url = git@github.com:ministryofjustice/accelerated_claims.git
-	branch = master
 [submodule "apps/ds-auth"]
 	path = apps/ds-auth
 	url = git@github.com:ministryofjustice/ds-auth.git
@@ -349,10 +341,6 @@
 [submodule "apps/rave-server"]
 	path = apps/rave-server
 	url = git@github.com:ministryofjustice/rave-server.git
-	branch = master
-[submodule "apps/devise_authentication_api"]
-	path = apps/devise_authentication_api
-	url = git@github.com:ministryofjustice/devise_authentication_api.git
 	branch = master
 [submodule "apps/orientation"]
 	path = apps/orientation
